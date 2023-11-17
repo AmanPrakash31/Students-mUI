@@ -22,6 +22,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {Roll_No: 8, Name: 'PRIYANSHU SONI', Gender:'M', DOB: '19-9-2001',Class:8,Pin:99808,Marks:85},
   {Roll_No: 9, Name: 'RAGHAV GUPTA', Gender: 'M', DOB: '18-2-2000',Class:9,Pin:78777,Marks:91},
   {Roll_No: 10, Name: 'KEERTI JAIN', Gender: 'F', DOB: '14-3-2001',Class:8,Pin:40461,Marks:87},
+  
 ];
 
 @Component({
@@ -32,5 +33,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 export class DataTableComponent {
   displayedColumns: string[] = ['Roll_No', 'Name', 'Gender', 'DOB','Class','Pin','Marks' ];
   dataSource = ELEMENT_DATA;
+
+
 
 }

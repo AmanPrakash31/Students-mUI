@@ -3,4 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body { margin: 10%; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 10%; font-family: Roboto, "Helvetica Neue", sans-serif; background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); }
+footer {
+    margin: 3%;
+    font-family: sans-serif;
+    text-align: center;
+    color: #dbedf3;
+    
+  }
